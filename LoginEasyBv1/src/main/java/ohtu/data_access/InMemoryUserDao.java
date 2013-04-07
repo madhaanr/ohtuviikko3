@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class InMemoryUserDao implements UserDao {
 
     private List<User> users;
-
+    
     public InMemoryUserDao() {
         users = new ArrayList<User>();
         users.add(new User("pekka", "akkep"));
